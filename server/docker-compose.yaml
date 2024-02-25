@@ -9,7 +9,9 @@ services:
     container_name: expressvpn
     restart: unless-stopped
     ports: # ports from which container that uses expressvpn connection will be available in local      network
-      - 8080:8080 # example
+      - 8080:8080 # sabnzbd
+      - 8081:8081 # qbitTorrent
+
     environment:
       - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8  # Comma seperated list of dns servers you wish to use and whitelist via iptables
       - CODE=ED73CGCSDH7WXKZFJU3NGXH
