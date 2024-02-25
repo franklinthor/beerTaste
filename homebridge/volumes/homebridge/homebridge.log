@@ -1,0 +1,919 @@
+[37m[2/13/2024, 2:04:12 PM][0m [36m[HB Supervisor][0m Creating default config.json: /var/lib/homebridge/config.json
+[37m[2/13/2024, 2:04:12 PM][0m [36m[HB Supervisor][0m OS: Linux 5.15.0-91-generic x64
+[37m[2/13/2024, 2:04:12 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[2/13/2024, 2:04:12 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[2/13/2024, 2:04:12 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[2/13/2024, 2:04:13 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[2/13/2024, 2:04:13 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[2/13/2024, 2:04:13 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 157
+[37m[2/13/2024, 2:04:13 PM] [39mLoaded config.json with 0 accessories and 1 platforms.
+[37m[2/13/2024, 2:04:13 PM] [39m---
+[37m[2/13/2024, 2:04:13 PM] [39m[33mNo plugins found.[39m
+[37m[2/13/2024, 2:04:13 PM] [39mLoading 1 platforms...
+Setup Payload:
+X-HM://002453SPOY1JQ
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 406-01-884 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[2/13/2024, 2:04:13 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge C4ED) is running on port 51860.
+[0;37m[2/13/2024, 2:05:44 PM] [0m[0;36m[Homebridge UI][0m [0;33mAdded new user: frankie[0m
+[0;37m[2/13/2024, 2:48:19 PM] [0m[0;36m[Homebridge UI][0m Running Command: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/plugin-upgrade-install.sh homebridge-zp 1.4.43 /var/lib/homebridge/node_modules
+[0;37m[2/13/2024, 2:49:15 PM] [0m[0;36m[Homebridge UI][0m Changes to config.json saved.
+[0;37m[2/13/2024, 2:49:17 PM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[2/13/2024, 2:49:17 PM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[2/13/2024, 2:49:17 PM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[2/13/2024, 2:49:17 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[2/13/2024, 2:49:22 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[2/13/2024, 2:49:27 PM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[2/13/2024, 2:49:27 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[2/13/2024, 2:49:27 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 4210
+[37m[2/13/2024, 2:49:27 PM] [39mLoaded config.json with 0 accessories and 2 platforms.
+[37m[2/13/2024, 2:49:27 PM] [39mLoaded 0 cached accessories from cachedAccessories.
+[37m[2/13/2024, 2:49:27 PM] [39m---
+[37m[2/13/2024, 2:49:27 PM] [39mLoaded plugin: homebridge-zp@1.4.43
+[37m[2/13/2024, 2:49:27 PM] [39mRegistering platform 'homebridge-zp.ZP'
+[37m[2/13/2024, 2:49:27 PM] [39m---
+[37m[2/13/2024, 2:49:27 PM] [39mLoading 2 platforms...
+[37m[2/13/2024, 2:49:27 PM] [39m[36m[Sonos][39m Initializing ZP platform...
+[37m[2/13/2024, 2:49:27 PM] [39m[36m[Sonos][39m homebridge-zp v1.4.43, node v18.19.0, homebridge v1.7.0, homebridge-lib v6.7.3
+[37m[2/13/2024, 2:49:27 PM] [39m[36m[Sonos][39m [33mwarning: recommended version: node v20.10.0[39m
+Setup Payload:
+X-HM://002453SPOY1JQ
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 406-01-884 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[2/13/2024, 2:49:27 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge C4ED) is running on port 51860.
+[37m[2/13/2024, 2:49:27 PM] [39m[36m[Sonos][39m hardware: x64
+[37m[2/13/2024, 2:49:27 PM] [39m[36m[Sonos][39m os: Ubuntu 22.04.3 LTS [64 bit]
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:40665/notify
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m closed http://0.0.0.0:40665/notify
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:40665/notify
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m found 1 households
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Sonos_pX7k4a2mqsfoyJIhzS373ioGdE: RINCON_48A6B8F476F801400 [192.168.1.12]: associated S2 zoneplayer
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Sonos_pX7k4a2mqsfoyJIhzS373ioGdE: found 1 S2 zone players in 1 zones
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m └─ Bedroom
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m    └─ RINCON_48A6B8F476F801400 [Bedroom]: Sonos One (S18) (master, airPlay)
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom: logLevel: set to 2
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom: Name: set to "Bedroom"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom: Serial Number: set to "RINCON_48A6B8F476F801400"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom: Manufacturer: set to "Sonos"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom: Model: set to "One (S18)"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom: Firmware Revision: set to "16.0"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Name: set to "Bedroom Sonos"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Configured Name: set to "Bedroom Sonos"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume Change: set to 0
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track Change: set to 0
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Sonos Group: set to ""
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Sonos Coordinator: set to false
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Log Level: set to 2
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Status Fault: set to 1
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: Name: set to "Bedroom Speakers"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: Configured Name: set to "Bedroom Speakers"
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume Change: set to 0
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Sonos Group: set to "Bedroom" (from "")
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: On: set to false
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Status Fault: set to 0 (from 1)
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m [31mBedroom: error: Attribute without value[39m
+[31mLine: 0[39m
+[31mColumn: 16[39m
+[31mChar: >[39m
+[37m[2/13/2024, 2:49:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: return 0s
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 32%
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Mute: set to false
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Loudness: set to true
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Bass: set to 0
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Treble: set to 0
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 32%
+[37m[2/13/2024, 2:49:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Mute: set to false
+[37m[2/13/2024, 2:55:23 PM] [39m[36m[Sonos][39m [31mBedroom: error: Attribute without value[39m
+[31mLine: 0[39m
+[31mColumn: 16[39m
+[31mChar: >[39m
+[37m[2/13/2024, 2:55:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 36% (from 32%)
+[37m[2/13/2024, 2:55:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 36% (from 32%)
+[37m[2/13/2024, 2:55:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 40% (from 36%)
+[37m[2/13/2024, 2:55:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 40% (from 36%)
+[37m[2/13/2024, 2:55:30 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 44% (from 40%)
+[37m[2/13/2024, 2:55:30 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 44% (from 40%)
+[37m[2/13/2024, 2:55:30 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 48% (from 44%)
+[37m[2/13/2024, 2:55:30 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 48% (from 44%)
+[37m[2/13/2024, 2:55:30 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 52% (from 48%)
+[37m[2/13/2024, 2:55:30 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 52% (from 48%)
+[37m[2/13/2024, 2:55:31 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 48% (from 52%)
+[37m[2/13/2024, 2:55:31 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 48% (from 52%)
+[37m[2/13/2024, 3:08:17 PM] [39m[36m[Sonos][39m [33mBedroom: warning: rebooted (57 -> 58)[39m
+[37m[2/13/2024, 3:08:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false
+[37m[2/13/2024, 3:08:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to ""
+[37m[2/13/2024, 3:08:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Repeat: set to 0
+[37m[2/13/2024, 3:08:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Shuffle: set to false
+[37m[2/13/2024, 3:08:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Crossfade: set to false
+[37m[2/13/2024, 3:09:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: Sonos Group: set to "Bedroom Speaker" (from "Bedroom")
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m Bedroom: request 15: SUBSCRIBE /ZoneGroupTopology/Event
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m [33mBedroom: warning: request 15: http status 412 Precondition Failed[39m
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m Bedroom: request 16: SUBSCRIBE /MediaRenderer/AVTransport/Event
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m [33mBedroom: warning: request 16: http status 412 Precondition Failed[39m
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m Bedroom: request 18: SUBSCRIBE /MediaRenderer/RenderingControl/Event
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m [33mBedroom: warning: request 18: http status 412 Precondition Failed[39m
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m Bedroom: request 20: SUBSCRIBE /MediaRenderer/GroupRenderingControl/Event
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m [33mBedroom: warning: request 20: http status 412 Precondition Failed[39m
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 33% (from 48%)
+[37m[2/13/2024, 3:38:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 33% (from 48%)
+[37m[2/13/2024, 7:34:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:34:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "")
+[37m[2/13/2024, 7:34:52 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 25% (from 33%)
+[37m[2/13/2024, 7:34:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 25% (from 33%)
+[37m[2/13/2024, 7:34:52 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 35% (from 25%)
+[37m[2/13/2024, 7:34:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 35% (from 25%)
+[37m[2/13/2024, 7:34:53 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain" (from " ")
+[37m[2/13/2024, 7:35:18 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:35:19 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:35:21 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "The Challenge - S23 ∙ E3 - What Happens in Vegas..." (from "Rain")
+[37m[2/13/2024, 7:35:22 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:35:23 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 41% (from 35%)
+[37m[2/13/2024, 7:35:23 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 41% (from 35%)
+[37m[2/13/2024, 7:35:23 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 47% (from 41%)
+[37m[2/13/2024, 7:35:23 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 47% (from 41%)
+[37m[2/13/2024, 7:35:24 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 60% (from 47%)
+[37m[2/13/2024, 7:35:24 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 60% (from 47%)
+[37m[2/13/2024, 7:35:24 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 66% (from 60%)
+[37m[2/13/2024, 7:35:24 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 66% (from 60%)
+[37m[2/13/2024, 7:35:24 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 72% (from 66%)
+[37m[2/13/2024, 7:35:24 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 72% (from 66%)
+[37m[2/13/2024, 7:35:25 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 79% (from 72%)
+[37m[2/13/2024, 7:35:25 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 79% (from 72%)
+[37m[2/13/2024, 7:35:25 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 85% (from 79%)
+[37m[2/13/2024, 7:35:25 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 85% (from 79%)
+[37m[2/13/2024, 7:35:26 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 91% (from 85%)
+[37m[2/13/2024, 7:35:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 91% (from 85%)
+[37m[2/13/2024, 7:35:26 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 97% (from 91%)
+[37m[2/13/2024, 7:35:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 97% (from 91%)
+[37m[2/13/2024, 7:35:27 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 100% (from 97%)
+[37m[2/13/2024, 7:35:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 100% (from 97%)
+[37m[2/13/2024, 7:35:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:35:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 60% (from 100%)
+[37m[2/13/2024, 7:35:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 60% (from 100%)
+[37m[2/13/2024, 7:35:30 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:35:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:35:44 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:35:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:35:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:37:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:37:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:37:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 7:37:51 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "The Challenge - S23 ∙ E3 - What Happens in Vegas...")
+[37m[2/13/2024, 7:37:54 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 7:37:54 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/13/2024, 11:20:01 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 11:20:01 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "")
+[37m[2/13/2024, 11:20:03 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Slumber Rain" (from " ")
+[37m[2/13/2024, 11:20:16 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 16% (from 60%)
+[37m[2/13/2024, 11:20:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 16% (from 60%)
+[37m[2/13/2024, 11:22:14 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Voltage Dreams" (from "Slumber Rain")
+[37m[2/13/2024, 11:23:11 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rainforest" (from "Voltage Dreams")
+[37m[2/13/2024, 11:23:13 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 22% (from 16%)
+[37m[2/13/2024, 11:23:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 22% (from 16%)
+[37m[2/13/2024, 11:23:14 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 28% (from 22%)
+[37m[2/13/2024, 11:23:14 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 28% (from 22%)
+[37m[2/13/2024, 11:23:14 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 53% (from 28%)
+[37m[2/13/2024, 11:23:14 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 53% (from 28%)
+[37m[2/13/2024, 11:23:15 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 47% (from 53%)
+[37m[2/13/2024, 11:23:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 47% (from 53%)
+[37m[2/13/2024, 11:23:15 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 41% (from 47%)
+[37m[2/13/2024, 11:23:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 41% (from 47%)
+[37m[2/13/2024, 11:23:18 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 47% (from 41%)
+[37m[2/13/2024, 11:23:18 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 47% (from 41%)
+[37m[2/13/2024, 11:23:26 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 53% (from 47%)
+[37m[2/13/2024, 11:23:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 53% (from 47%)
+[37m[2/13/2024, 11:23:27 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 60% (from 53%)
+[37m[2/13/2024, 11:23:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 60% (from 53%)
+[37m[2/13/2024, 11:23:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 66% (from 60%)
+[37m[2/13/2024, 11:23:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 66% (from 60%)
+[37m[2/13/2024, 11:23:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 72% (from 66%)
+[37m[2/13/2024, 11:23:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 72% (from 66%)
+[37m[2/13/2024, 11:23:28 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 97% (from 72%)
+[37m[2/13/2024, 11:23:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 97% (from 72%)
+[37m[2/13/2024, 11:23:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 100% (from 97%)
+[37m[2/13/2024, 11:23:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 100% (from 97%)
+[37m[2/13/2024, 11:23:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 94% (from 100%)
+[37m[2/13/2024, 11:23:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 94% (from 100%)
+[37m[2/13/2024, 11:23:29 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 88% (from 94%)
+[37m[2/13/2024, 11:23:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 81% (from 94%)
+[37m[2/13/2024, 11:23:30 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 44% (from 88%)
+[37m[2/13/2024, 11:23:30 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 44% (from 81%)
+[37m[2/13/2024, 11:23:37 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rainforest")
+[37m[2/13/2024, 11:23:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 11:23:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/13/2024, 11:23:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 11:23:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "")
+[37m[2/13/2024, 11:23:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rainforest" (from " ")
+[37m[2/13/2024, 11:23:49 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 50% (from 44%)
+[37m[2/13/2024, 11:23:49 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 50% (from 44%)
+[37m[2/13/2024, 11:23:50 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 57% (from 50%)
+[37m[2/13/2024, 11:23:50 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 57% (from 50%)
+[37m[2/13/2024, 11:24:08 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 62% (from 57%)
+[37m[2/13/2024, 11:24:08 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 62% (from 57%)
+[37m[2/13/2024, 11:24:10 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 68% (from 62%)
+[37m[2/13/2024, 11:24:10 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 68% (from 62%)
+[37m[2/13/2024, 11:24:11 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 62% (from 68%)
+[37m[2/13/2024, 11:24:11 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 62% (from 68%)
+[37m[2/13/2024, 11:24:11 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 57% (from 62%)
+[37m[2/13/2024, 11:24:11 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 57% (from 62%)
+[37m[2/13/2024, 11:24:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rainforest")
+[37m[2/13/2024, 11:24:19 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 11:24:19 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/13/2024, 11:24:25 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 11:24:25 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "")
+[37m[2/13/2024, 11:24:25 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 63% (from 57%)
+[37m[2/13/2024, 11:24:25 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 63% (from 57%)
+[37m[2/13/2024, 11:24:26 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 69% (from 63%)
+[37m[2/13/2024, 11:24:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 69% (from 63%)
+[37m[2/13/2024, 11:24:26 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 76% (from 69%)
+[37m[2/13/2024, 11:24:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 76% (from 69%)
+[37m[2/13/2024, 11:24:27 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 69% (from 76%)
+[37m[2/13/2024, 11:24:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 69% (from 76%)
+[37m[2/13/2024, 11:24:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rainforest" (from " ")
+[37m[2/13/2024, 11:24:27 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 63% (from 69%)
+[37m[2/13/2024, 11:24:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 63% (from 69%)
+[37m[2/13/2024, 11:24:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 11:24:36 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 59% (from 63%)
+[37m[2/13/2024, 11:24:36 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 59% (from 63%)
+[37m[2/13/2024, 11:24:41 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 55% (from 59%)
+[37m[2/13/2024, 11:24:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 55% (from 59%)
+[37m[2/13/2024, 11:24:42 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 51% (from 55%)
+[37m[2/13/2024, 11:24:42 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 51% (from 55%)
+[37m[2/13/2024, 11:24:42 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 43% (from 51%)
+[37m[2/13/2024, 11:24:42 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 43% (from 51%)
+[37m[2/13/2024, 11:24:44 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 11:24:46 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 49% (from 43%)
+[37m[2/13/2024, 11:24:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 49% (from 43%)
+[37m[2/13/2024, 11:24:46 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 55% (from 49%)
+[37m[2/13/2024, 11:24:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 55% (from 49%)
+[37m[2/13/2024, 11:24:48 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 49% (from 55%)
+[37m[2/13/2024, 11:24:48 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 49% (from 55%)
+[37m[2/13/2024, 11:24:48 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 43% (from 49%)
+[37m[2/13/2024, 11:24:48 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 43% (from 49%)
+[37m[2/13/2024, 11:24:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/13/2024, 11:30:31 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 48% (from 43%)
+[37m[2/13/2024, 11:30:31 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 48% (from 43%)
+[37m[2/13/2024, 11:30:32 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 53% (from 48%)
+[37m[2/13/2024, 11:30:32 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 53% (from 48%)
+[37m[2/13/2024, 11:30:32 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 48% (from 53%)
+[37m[2/13/2024, 11:30:32 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 48% (from 53%)
+[37m[2/13/2024, 11:30:33 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 43% (from 48%)
+[37m[2/13/2024, 11:30:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 43% (from 48%)
+[37m[2/13/2024, 11:30:33 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 38% (from 43%)
+[37m[2/13/2024, 11:30:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 38% (from 43%)
+[37m[2/13/2024, 11:32:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rainforest")
+[37m[2/13/2024, 11:32:59 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/13/2024, 11:42:36 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/13/2024, 11:42:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds" (from "")
+[37m[2/13/2024, 11:42:52 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 28% (from 38%)
+[37m[2/13/2024, 11:42:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 28% (from 38%)
+[37m[2/13/2024, 11:43:55 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 17% (from 28%)
+[37m[2/13/2024, 11:43:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 17% (from 28%)
+[37m[2/13/2024, 11:43:55 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 15% (from 17%)
+[37m[2/13/2024, 11:43:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 15% (from 17%)
+[37m[2/13/2024, 11:43:55 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 13% (from 15%)
+[37m[2/13/2024, 11:43:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 13% (from 15%)
+[37m[2/13/2024, 11:43:56 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 12% (from 13%)
+[37m[2/13/2024, 11:43:56 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 12% (from 13%)
+[37m[2/14/2024, 12:42:37 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[0;37m[2/14/2024, 1:10:54 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/14/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/14/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-8oAkiL/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/14/2024, 12:10:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/14/2024, 12:10:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rain Sounds")
+[37m[2/14/2024, 12:10:38 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 18% (from 12%)
+[37m[2/14/2024, 12:10:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 18% (from 12%)
+[37m[2/14/2024, 12:10:39 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 25% (from 18%)
+[37m[2/14/2024, 12:10:39 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 25% (from 18%)
+[37m[2/14/2024, 12:10:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/14/2024, 12:11:00 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/14/2024, 12:11:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/14/2024, 12:11:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/14/2024, 11:15:09 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/14/2024, 11:15:09 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "")
+[37m[2/14/2024, 11:15:10 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain" (from " ")
+[37m[2/14/2024, 11:20:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/14/2024, 11:30:52 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 35% (from 25%)
+[37m[2/14/2024, 11:30:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 35% (from 25%)
+[37m[2/14/2024, 11:31:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from "Rain")
+[37m[2/14/2024, 11:31:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/14/2024, 11:31:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds" (from "")
+[37m[2/14/2024, 11:31:54 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 25% (from 35%)
+[37m[2/14/2024, 11:31:54 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 25% (from 35%)
+[37m[2/15/2024, 12:31:17 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[0;37m[2/15/2024, 1:10:54 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/15/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/15/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-PQpura/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/15/2024, 4:24:37 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/15/2024, 4:52:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/15/2024, 11:16:09 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/15/2024, 11:16:35 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 15% (from 25%)
+[37m[2/15/2024, 11:16:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 15% (from 25%)
+[0;37m[2/16/2024, 1:10:54 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/16/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/16/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-Ju3mNp/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/16/2024, 9:32:23 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/16/2024, 11:15:53 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/16/2024, 12:33:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/16/2024, 4:26:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/16/2024, 5:34:42 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/16/2024, 7:03:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/16/2024, 7:03:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rain Sounds")
+[37m[2/16/2024, 7:03:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Outro" (from " ")
+[37m[2/16/2024, 7:03:38 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 13% (from 15%)
+[37m[2/16/2024, 7:03:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 13% (from 15%)
+[37m[2/16/2024, 7:03:39 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 15% (from 13%)
+[37m[2/16/2024, 7:03:39 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 15% (from 13%)
+[37m[2/16/2024, 7:03:43 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 17% (from 15%)
+[37m[2/16/2024, 7:03:43 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 20% (from 15%)
+[37m[2/16/2024, 7:03:43 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 26% (from 17%)
+[37m[2/16/2024, 7:03:43 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 26% (from 20%)
+[37m[2/16/2024, 7:03:43 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 32% (from 26%)
+[37m[2/16/2024, 7:03:43 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 40% (from 26%)
+[37m[2/16/2024, 7:03:44 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 49% (from 32%)
+[37m[2/16/2024, 7:03:44 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 49% (from 40%)
+[37m[2/16/2024, 7:03:44 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 51% (from 49%)
+[37m[2/16/2024, 7:03:44 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 51% (from 49%)
+[37m[2/16/2024, 7:07:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Sundream" (from "Outro")
+[37m[2/16/2024, 7:19:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Sundream")
+[37m[2/16/2024, 7:19:50 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/16/2024, 7:19:50 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[0;37m[2/17/2024, 1:10:54 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/17/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/17/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-glVfNp/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/17/2024, 1:37:49 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/17/2024, 1:37:50 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds" (from "")
+[37m[2/17/2024, 1:37:52 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 47% (from 51%)
+[37m[2/17/2024, 1:37:52 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 47% (from 51%)
+[37m[2/17/2024, 1:37:52 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 43% (from 47%)
+[37m[2/17/2024, 1:37:53 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 43% (from 47%)
+[37m[2/17/2024, 1:37:53 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 27% (from 43%)
+[37m[2/17/2024, 1:37:53 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 27% (from 43%)
+[37m[2/17/2024, 1:37:53 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 23% (from 27%)
+[37m[2/17/2024, 1:37:53 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 23% (from 27%)
+[37m[2/17/2024, 1:37:54 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 19% (from 23%)
+[37m[2/17/2024, 1:37:54 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 19% (from 23%)
+[37m[2/17/2024, 1:37:54 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 15% (from 19%)
+[37m[2/17/2024, 1:37:54 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 15% (from 19%)
+[37m[2/17/2024, 1:37:56 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 13% (from 15%)
+[37m[2/17/2024, 1:37:56 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 13% (from 15%)
+[37m[2/17/2024, 1:37:57 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 11% (from 13%)
+[37m[2/17/2024, 1:37:57 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 11% (from 13%)
+[37m[2/17/2024, 1:37:57 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 9% (from 11%)
+[37m[2/17/2024, 1:37:57 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 9% (from 11%)
+[37m[2/17/2024, 1:37:58 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 11% (from 9%)
+[37m[2/17/2024, 1:37:58 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 11% (from 9%)
+[37m[2/17/2024, 1:37:58 AM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 13% (from 11%)
+[37m[2/17/2024, 1:37:58 AM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 13% (from 11%)
+[37m[2/17/2024, 3:20:02 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rain Sounds")
+[37m[2/17/2024, 3:20:04 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain" (from " ")
+[37m[2/17/2024, 3:20:15 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/17/2024, 3:20:15 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from "Rain")
+[37m[2/17/2024, 3:20:15 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/17/2024, 3:20:16 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds" (from "")
+[37m[2/17/2024, 5:20:17 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds by Sleep Jar®" (from "Rain Sounds")
+[37m[2/17/2024, 12:15:05 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/17/2024, 3:37:57 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/17/2024, 4:14:10 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 11% (from 13%)
+[37m[2/17/2024, 4:14:10 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 11% (from 13%)
+[37m[2/17/2024, 4:14:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[0;37m[2/18/2024, 1:10:54 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/18/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/18/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-BVcvtm/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/18/2024, 4:05:22 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/18/2024, 2:05:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/18/2024, 8:52:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/18/2024, 8:52:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rain Sounds by Sleep Jar®")
+[37m[2/18/2024, 8:52:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain" (from " ")
+[37m[2/18/2024, 8:53:37 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/18/2024, 8:54:18 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/18/2024, 8:54:28 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Starship Troopers" (from "Rain")
+[37m[2/18/2024, 8:54:34 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/18/2024, 8:57:34 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/18/2024, 8:57:35 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 17% (from 11%)
+[37m[2/18/2024, 8:57:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 17% (from 11%)
+[37m[2/18/2024, 8:57:36 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 24% (from 17%)
+[37m[2/18/2024, 8:57:36 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 24% (from 17%)
+[37m[2/18/2024, 8:57:36 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 30% (from 24%)
+[37m[2/18/2024, 8:57:36 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 30% (from 24%)
+[37m[2/18/2024, 8:57:37 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 42% (from 30%)
+[37m[2/18/2024, 8:57:37 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 42% (from 30%)
+[37m[2/18/2024, 8:57:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/18/2024, 8:57:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/18/2024, 8:57:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/18/2024, 8:57:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Starship Troopers")
+[37m[2/18/2024, 8:57:49 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/18/2024, 11:16:58 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/18/2024, 11:16:59 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds by Sleep Jar®" (from "")
+[37m[2/18/2024, 11:17:02 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 38% (from 42%)
+[37m[2/18/2024, 11:17:02 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 38% (from 42%)
+[37m[2/18/2024, 11:17:02 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 30% (from 38%)
+[37m[2/18/2024, 11:17:02 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 30% (from 38%)
+[37m[2/18/2024, 11:17:02 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 22% (from 30%)
+[37m[2/18/2024, 11:17:02 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 22% (from 30%)
+[37m[2/18/2024, 11:17:03 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 18% (from 22%)
+[37m[2/18/2024, 11:17:03 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 18% (from 22%)
+[37m[2/18/2024, 11:17:03 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 14% (from 18%)
+[37m[2/18/2024, 11:17:03 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 14% (from 18%)
+[37m[2/18/2024, 11:17:07 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 12% (from 14%)
+[37m[2/18/2024, 11:17:07 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 12% (from 14%)
+[0;37m[2/19/2024, 1:10:54 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/19/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/19/2024, 1:35:42 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-dGhTI0/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/19/2024, 7:20:32 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/19/2024, 4:10:08 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/19/2024, 6:41:49 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/19/2024, 8:14:19 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/19/2024, 8:14:19 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rain Sounds by Sleep Jar®")
+[37m[2/19/2024, 8:14:19 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 42% (from 12%)
+[37m[2/19/2024, 8:14:19 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 42% (from 12%)
+[37m[2/19/2024, 8:14:57 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "The Challenge - S23 ∙ E6 - Going Insane" (from " ")
+[37m[2/19/2024, 8:15:06 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/19/2024, 8:15:06 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "The Challenge - S23 ∙ E6 - Going Insane")
+[37m[2/19/2024, 8:15:09 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/19/2024, 10:33:12 PM][0m [36m[HB Supervisor][0m OS: Linux 5.15.0-94-generic x64
+[37m[2/19/2024, 10:33:12 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[2/19/2024, 10:33:12 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[2/19/2024, 10:33:12 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[2/19/2024, 10:33:14 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[2/19/2024, 10:33:14 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[2/19/2024, 10:33:14 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 148
+[37m[2/19/2024, 10:33:15 PM] [39mLoaded config.json with 0 accessories and 2 platforms.
+[37m[2/19/2024, 10:33:15 PM] [39mLoaded 1 cached accessories from cachedAccessories.
+[37m[2/19/2024, 10:33:15 PM] [39m---
+[37m[2/19/2024, 10:33:15 PM] [39mLoaded plugin: homebridge-zp@1.4.43
+[37m[2/19/2024, 10:33:15 PM] [39mRegistering platform 'homebridge-zp.ZP'
+[37m[2/19/2024, 10:33:15 PM] [39m---
+[37m[2/19/2024, 10:33:15 PM] [39mLoading 2 platforms...
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m Initializing ZP platform...
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m homebridge-zp v1.4.43, node v18.19.0, homebridge v1.7.0, homebridge-lib v6.7.3
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m [33mwarning: recommended version: node v20.10.0[39m
+Setup Payload:
+X-HM://002453SPOY1JQ
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 406-01-884 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[2/19/2024, 10:33:15 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge C4ED) is running on port 51860.
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m hardware: x64
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m os: Ubuntu 22.04.3 LTS [64 bit]
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m restored 1 accessories from cache
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:44513/notify
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m closed http://0.0.0.0:44513/notify
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:44513/notify
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m found 1 households
+[37m[2/19/2024, 10:33:15 PM] [39m[36m[Sonos][39m Sonos_NHKpAee5qVDkMg7G6y6Cl1M37S: RINCON_48A6B8F476F801400 [192.168.1.12]: associated S2 zoneplayer
+[37m[2/19/2024, 10:33:16 PM] [39m[36m[Sonos][39m Sonos_NHKpAee5qVDkMg7G6y6Cl1M37S: found 1 S2 zone players in 1 zones
+[37m[2/19/2024, 10:33:16 PM] [39m[36m[Sonos][39m └─ Bedroom Speaker
+[37m[2/19/2024, 10:33:16 PM] [39m[36m[Sonos][39m    └─ RINCON_48A6B8F476F801400 [Bedroom Speaker]: Sonos One (S18) (master, airPlay)
+[37m[2/19/2024, 10:33:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Status Fault: set to 1 (from 0)
+[37m[2/19/2024, 10:33:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Status Fault: set to 0 (from 1)
+[37m[2/19/2024, 11:15:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/19/2024, 11:15:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "")
+[37m[2/19/2024, 11:15:04 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 35% (from 42%)
+[37m[2/19/2024, 11:15:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 35% (from 42%)
+[37m[2/19/2024, 11:15:06 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain" (from " ")
+[37m[2/19/2024, 11:15:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/19/2024, 11:15:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to " " (from "Rain")
+[37m[2/19/2024, 11:15:18 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from " ")
+[37m[2/19/2024, 11:50:34 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/19/2024, 11:50:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds by Sleep Jar®" (from "")
+[37m[2/19/2024, 11:50:40 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 31% (from 35%)
+[37m[2/19/2024, 11:50:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 31% (from 35%)
+[37m[2/19/2024, 11:50:41 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 27% (from 31%)
+[37m[2/19/2024, 11:50:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 27% (from 31%)
+[37m[2/19/2024, 11:50:41 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 23% (from 27%)
+[37m[2/19/2024, 11:50:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 23% (from 27%)
+[37m[2/19/2024, 11:50:41 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 15% (from 23%)
+[37m[2/19/2024, 11:50:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 15% (from 23%)
+[37m[2/19/2024, 11:50:42 PM] [39m[36m[Sonos][39m Bedroom Speakers: Volume: set to 13% (from 15%)
+[37m[2/19/2024, 11:50:42 PM] [39m[36m[Sonos][39m Bedroom Sonos: Volume: set to 13% (from 15%)
+[0;37m[2/20/2024, 1:10:11 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/20/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/20/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-scv08S/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/20/2024, 7:04:24 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/20/2024, 10:25:04 AM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: rebooted (4 -> 5)[39m
+[37m[2/20/2024, 3:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 3:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 1103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 3:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 1403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 3:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 1703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 3:55:19 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 147: SUBSCRIBE /ZoneGroupTopology/Event
+[37m[2/20/2024, 3:55:19 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 147: timeout after 15 seconds[39m
+[37m[2/20/2024, 3:55:22 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 148: SUBSCRIBE /MediaRenderer/AVTransport/Event
+[37m[2/20/2024, 3:55:22 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 148: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 3:55:25 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 149: SUBSCRIBE /MediaRenderer/RenderingControl/Event
+[37m[2/20/2024, 3:55:25 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 149: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 3:55:28 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 150: SUBSCRIBE /MediaRenderer/GroupRenderingControl/Event
+[37m[2/20/2024, 3:55:28 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 150: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 3:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 2003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 2303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 2603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 2903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 3203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 3503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 3803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 4103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 4403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 4703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 5003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 5303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 4:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 5603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 5903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 6203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 6503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 6803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 7103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 7403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 7703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 8003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 8303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 8603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 8903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 5:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 9203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 9503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 9803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 10103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 10403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 10703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 11003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 11303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 11603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 11903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 12203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 12503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 6:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 12803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 13103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 13403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 13703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 14003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 14303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 14603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 14903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 15203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 15503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 15803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:50:15 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 151: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 7:50:15 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 151: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 7:50:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 7:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 16103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 7:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 16403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:01:14 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 152: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:01:14 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 152: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:01:14 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 16703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 17003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:10:53 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 153: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:10:53 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 153: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:10:53 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 17303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:15:48 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 154: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:15:48 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 154: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:15:48 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:18:27 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 155: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:18:27 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 155: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:18:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 17603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:21:15 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 156: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:21:15 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 156: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:21:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:21:42 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 157: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:21:42 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 157: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:21:42 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 17903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:23:57 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 158: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:23:57 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 158: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:23:57 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 18203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:29:03 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 159: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:29:03 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 159: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:29:03 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:31:09 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 160: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:31:09 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 160: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:31:09 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 18503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:34:00 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 161: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:34:00 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 161: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:34:00 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:37:51 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 162: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:37:51 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 162: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:37:51 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:38:27 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 163: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:38:27 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 163: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:38:27 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 18803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:39:33 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 164: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:39:33 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 164: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:39:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:43:24 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 165: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:43:24 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 165: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:43:24 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 19103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:44:39 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 166: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:44:39 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 166: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:44:39 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:45:33 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 167: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:45:33 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 167: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:45:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:47:21 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 168: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:47:21 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 168: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:47:21 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:47:39 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 169: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:47:39 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 169: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:47:39 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 19403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:48:54 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 170: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:48:54 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 170: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:48:54 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:51:37 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 171: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:51:37 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 171: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:51:37 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 19703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 8:54:12 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 172: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 8:54:12 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 172: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 8:54:12 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 8:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 20003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:02:13 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 173: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:02:13 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 173: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:02:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:02:42 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 174: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:02:42 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 174: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:02:42 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 20303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:05:40 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 175: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:05:40 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 175: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:05:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 20603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:09:25 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 176: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:09:25 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 176: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:09:25 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:11:46 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 177: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:11:46 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 177: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:11:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 20903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:15:04 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 178: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:15:04 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 178: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:15:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 21203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:19:49 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 179: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:19:49 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 179: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:19:49 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 21503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:26:52 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 180: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:26:52 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 180: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:26:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 21803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:29:31 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 181: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:29:31 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 181: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:29:31 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:31:01 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 182: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:31:01 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 182: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:31:01 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:33:13 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 183: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:33:13 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 183: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:33:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:33:46 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 184: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:33:46 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 184: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:33:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 22103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:35:13 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 185: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:35:13 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 185: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:35:13 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 22403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:42:07 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 186: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:42:07 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 186: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:42:07 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:42:40 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 187: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:42:40 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 187: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:42:40 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 22703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:44:43 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 188: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:44:43 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 188: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:44:43 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:48:35 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 189: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:48:35 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 189: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:48:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 23003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:49:11 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 190: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:49:11 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 190: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:49:11 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:52:01 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 191: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:52:01 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 191: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:52:01 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:52:34 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 192: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:52:34 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 192: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:52:34 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 23303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:56:16 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 193: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:56:16 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 193: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:56:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 9:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 23603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 9:59:52 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 194: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 9:59:52 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 194: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 9:59:52 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:01:47 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 195: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:01:47 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 195: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:01:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:02:29 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 196: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:02:29 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 196: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:02:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 23903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:03:46 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 197: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:03:46 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 197: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:03:46 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:05:20 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 198: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:05:20 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 198: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:05:20 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:06:14 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 199: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:06:14 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 199: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:06:14 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 24203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:11:32 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 200: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:11:32 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 200: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:11:32 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:12:29 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 201: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:12:29 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 201: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:12:29 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:13:17 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 202: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:13:17 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 202: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:13:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 24503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:14:02 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 203: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:14:02 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 203: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:14:02 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:15:26 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 204: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:15:26 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 204: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:15:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:16:35 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 205: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:16:35 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 205: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:16:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:17:05 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 206: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:17:05 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 206: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:17:05 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:17:32 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 207: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:17:32 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 207: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:17:32 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 24803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:18:50 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 208: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:18:50 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 208: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:18:50 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:19:26 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 209: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:19:26 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 209: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:19:26 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:20:38 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 210: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:20:38 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 210: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:20:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:21:11 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 211: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:21:11 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 211: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:21:11 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:21:47 PM] [39m[36m[Sonos][39m Bedroom Speaker: request 212: POST /MediaRenderer/AVTransport/Control GetRemainingSleepTimerDuration
+[37m[2/20/2024, 10:21:47 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: request 212: connect EHOSTUNREACH 192.168.1.12:1400[39m
+[37m[2/20/2024, 10:21:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: ignore 0s - timed out
+[37m[2/20/2024, 10:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 25103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 25403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 25703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 26003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 26303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 26603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:53:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 26903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 10:58:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 27203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:03:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 27503s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:08:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 27803s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:13:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 28103s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:18:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 28403s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:23:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 28703s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:28:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 29003s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:33:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 29303s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:38:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 29603s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:43:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 29903s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:48:46 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [Bedroom Speaker]: lastSeen: Tue Feb 20 2024 15:25:24, 30203s ago at 192.168.1.12, bootSeq: 5
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: address changed from 192.168.1.12 to 192.168.1.10[39m
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m closed http://0.0.0.0:44513/notify
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:44513/notify
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m found 1 households
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m Sonos_NHKpAee5qVDkMg7G6y6Cl1M37S: RINCON_48A6B8F476F801400 [192.168.1.12]: associated S2 zoneplayer
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m [33mBedroom Speaker: warning: rebooted (5 -> 6)[39m
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m Sonos_NHKpAee5qVDkMg7G6y6Cl1M37S: found 1 S2 zone players in 1 zones
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m └─ Bedroom Speaker
+[37m[2/20/2024, 11:52:04 PM] [39m[36m[Sonos][39m    └─ RINCON_48A6B8F476F801400 [Bedroom Speaker]: Sonos One (S18) (master, airPlay)
+[0;37m[2/21/2024, 1:10:11 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/21/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/21/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-3sSC6D/homebridge-backup-0E918A71C4ED.tar.gz
+[0;37m[2/22/2024, 1:10:11 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/22/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/22/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-eZsr2N/homebridge-backup-0E918A71C4ED.tar.gz
+[0;37m[2/23/2024, 1:10:11 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[37m[2/23/2024, 1:26:17 AM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: return 0s
+[0;37m[2/23/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/23/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-pVHfGr/homebridge-backup-0E918A71C4ED.tar.gz
+[0;37m[2/24/2024, 1:10:11 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/24/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/24/2024, 4:20:00 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-WpHIZr/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/24/2024, 6:56:36 PM][0m [36m[HB Supervisor][0m Stopping services...
+[37m[2/24/2024, 6:56:36 PM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[2/24/2024, 6:56:36 PM] [39m[36m[Sonos][39m closed http://0.0.0.0:44513/notify
+[37m[2/24/2024, 6:56:41 PM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[2/24/2024, 6:57:58 PM][0m [36m[HB Supervisor][0m OS: Linux 5.15.0-97-generic x64
+[37m[2/24/2024, 6:57:58 PM][0m [36m[HB Supervisor][0m Node.js v18.19.0 /opt/homebridge/bin/node
+[37m[2/24/2024, 6:57:58 PM][0m [36m[HB Supervisor][0m Homebridge Path: /var/lib/homebridge/node_modules/homebridge/bin/homebridge
+[37m[2/24/2024, 6:57:58 PM][0m [36m[HB Supervisor][0m UI Path: /opt/homebridge/lib/node_modules/homebridge-config-ui-x/dist/bin/standalone.js
+[0;37m[2/24/2024, 6:58:00 PM] [0m[0;36m[Homebridge UI][0m [0;33mHomebridge UI v4.55.1 is listening on :: port 8581[0m
+[37m[2/24/2024, 6:58:00 PM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[2/24/2024, 6:58:00 PM][0m [36m[HB Supervisor][0m Started Homebridge v1.7.0 with PID: 145
+[37m[2/24/2024, 6:58:00 PM] [39mLoaded config.json with 0 accessories and 2 platforms.
+[37m[2/24/2024, 6:58:01 PM] [39mLoaded 1 cached accessories from cachedAccessories.
+[37m[2/24/2024, 6:58:01 PM] [39m---
+[37m[2/24/2024, 6:58:01 PM] [39mLoaded plugin: homebridge-zp@1.4.43
+[37m[2/24/2024, 6:58:01 PM] [39mRegistering platform 'homebridge-zp.ZP'
+[37m[2/24/2024, 6:58:01 PM] [39m---
+[37m[2/24/2024, 6:58:01 PM] [39mLoading 2 platforms...
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m Initializing ZP platform...
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m homebridge-zp v1.4.43, node v18.19.0, homebridge v1.7.0, homebridge-lib v6.7.3
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m [33mwarning: recommended version: node v20.10.0[39m
+Setup Payload:
+X-HM://002453SPOY1JQ
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 406-01-884 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[2/24/2024, 6:58:01 PM] [39mHomebridge v1.7.0 (HAP v0.11.1) (Homebridge C4ED) is running on port 51860.
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m hardware: x64
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m os: Ubuntu 22.04.3 LTS [64 bit]
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m restored 1 accessories from cache
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:41635/notify
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m closed http://0.0.0.0:41635/notify
+[37m[2/24/2024, 6:58:01 PM] [39m[36m[Sonos][39m listening on http://0.0.0.0:41635/notify
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m RINCON_48A6B8F476F801400 [192.168.1.12]: request 1: GET /xml/device_description.xml
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m [33mwarning: RINCON_48A6B8F476F801400 [192.168.1.12]: request 1: timeout after 15 seconds[39m
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m found 1 households
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m Sonos_NHKpAee5qVDkMg7G6y6Cl1M37S: RINCON_48A6B8F476F801400 [192.168.1.10]: associated S2 zoneplayer
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m Sonos_NHKpAee5qVDkMg7G6y6Cl1M37S: found 1 S2 zone players in 1 zones
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m └─ Bedroom Speaker
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m    └─ RINCON_48A6B8F476F801400 [Bedroom Speaker]: Sonos One (S18) (master, airPlay)
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Status Fault: set to 1 (from 0)
+[37m[2/24/2024, 6:58:16 PM] [39m[36m[Sonos][39m Bedroom Sonos: Status Fault: set to 0 (from 1)
+[37m[2/24/2024, 9:19:33 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/24/2024, 9:20:03 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Dress Down (Night Tempo Showa Groove Mix)" (from "Rain Sounds by Sleep Jar®")
+[37m[2/24/2024, 9:20:03 PM] [39m[36m[Sonos][39m Bedroom Sonos: Repeat: set to 2 (from 0)
+[37m[2/24/2024, 9:24:10 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Lonely Night" (from "Dress Down (Night Tempo Showa Groove Mix)")
+[37m[2/24/2024, 9:27:51 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Central City Pressure" (from "Lonely Night")
+[37m[2/24/2024, 9:30:23 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Crystal Dolphin" (from "Central City Pressure")
+[37m[2/24/2024, 9:32:18 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Baby I'm Yours" (from "Crystal Dolphin")
+[37m[2/24/2024, 9:35:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Shooting Stars" (from "Baby I'm Yours")
+[37m[2/24/2024, 9:39:51 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Sorry, I Like You" (from "Shooting Stars")
+[37m[2/24/2024, 9:41:54 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Buttercup" (from "Sorry, I Like You")
+[37m[2/24/2024, 9:45:23 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "SLOW DANCING IN THE DARK" (from "Buttercup")
+[37m[2/24/2024, 9:48:53 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "L'aventure" (from "SLOW DANCING IN THE DARK")
+[37m[2/24/2024, 9:51:22 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "popcorn castle" (from "L'aventure")
+[37m[2/24/2024, 9:54:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "sleep it off" (from "popcorn castle")
+[37m[2/24/2024, 9:58:04 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Plastic Love" (from "sleep it off")
+[37m[2/24/2024, 10:02:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Flamingo" (from "Plastic Love")
+[37m[2/24/2024, 10:05:59 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Shop" (from "Flamingo")
+[37m[2/24/2024, 10:06:49 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Ghost Duet" (from "Shop")
+[37m[2/24/2024, 10:07:50 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Dissolve" (from "Ghost Duet")
+[37m[2/24/2024, 10:11:35 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Chinese New Year" (from "Dissolve")
+[37m[2/24/2024, 10:14:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Céleste" (from "Chinese New Year")
+[37m[2/24/2024, 10:16:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Tokyo" (from "Céleste")
+[37m[2/24/2024, 10:18:22 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "watashi" (from "Tokyo")
+[37m[2/24/2024, 10:19:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "jandaya" (from "watashi")
+[37m[2/24/2024, 10:22:02 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Shinigami" (from "jandaya")
+[37m[2/24/2024, 10:24:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Count What You Have Now" (from "Shinigami")
+[37m[2/24/2024, 10:29:17 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Morioucho Radio" (from "Count What You Have Now")
+[37m[2/24/2024, 10:30:05 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "green tea forest" (from "Morioucho Radio")
+[37m[2/24/2024, 10:33:56 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Digital Baptism" (from "green tea forest")
+[37m[2/24/2024, 10:37:31 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "frog summer" (from "Digital Baptism")
+[37m[2/24/2024, 10:39:08 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Dire Dire Docks (From \"Super Mario 64 GMB Cinematic Soundtrack\"" (from "frog summer")
+[37m[2/24/2024, 10:42:15 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Thank you, my twilight" (from "Dire Dire Docks (From \"Super Mario 64 GMB Cinematic Soundtrack\"")
+[37m[2/24/2024, 10:46:47 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Shiki No Uta" (from "Thank you, my twilight")
+[37m[2/24/2024, 10:49:36 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Beat laments the world" (from "Shiki No Uta")
+[37m[2/24/2024, 10:54:00 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "reflection eternal" (from "Beat laments the world")
+[37m[2/24/2024, 10:58:18 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Luv(sic.) pt3 (feat. Shing02)" (from "reflection eternal")
+[37m[2/24/2024, 11:03:55 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Feather (feat. Cise Starr & Akin from CYNE)" (from "Luv(sic.) pt3 (feat. Shing02)")
+[37m[2/24/2024, 11:06:51 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Bakamitai - Taxi Driver Edition" (from "Feather (feat. Cise Starr & Akin from CYNE)")
+[37m[2/24/2024, 11:11:43 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "四季ノ唄" (from "Bakamitai - Taxi Driver Edition")
+[37m[2/24/2024, 11:16:41 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "NIGHT RUNNING" (from "四季ノ唄")
+[37m[2/24/2024, 11:20:36 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "イントロを開く" (from "NIGHT RUNNING")
+[37m[2/24/2024, 11:23:51 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "申し訳ありません" (from "イントロを開く")
+[37m[2/24/2024, 11:26:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Omae Wa Mou" (from "申し訳ありません")
+[37m[2/24/2024, 11:27:58 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)
+[37m[2/24/2024, 11:35:14 PM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Fukashigi No Carte (Bunny Girl Senpai LoFi) - Remix" (from "Omae Wa Mou")
+[0;37m[2/25/2024, 1:10:31 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[2/25/2024, 3:01:28 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[2/25/2024, 3:01:28 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-QowS8z/homebridge-backup-0E918A71C4ED.tar.gz
+[37m[2/25/2024, 4:50:23 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "" (from "Fukashigi No Carte (Bunny Girl Senpai LoFi) - Remix")
+[37m[2/25/2024, 4:50:23 AM] [39m[36m[Sonos][39m Bedroom Sonos: Repeat: set to 0 (from 2)
+[37m[2/25/2024, 4:50:23 AM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to true (from false)
+[37m[2/25/2024, 4:50:24 AM] [39m[36m[Sonos][39m Bedroom Sonos: Track: set to "Rain Sounds by Sleep Jar®" (from "")
+[37m[2/25/2024, 6:27:44 AM] [39m[36m[Sonos][39m Bedroom Sonos: Remaining Duration: get: return 0s
+[37m[2/25/2024, 12:06:38 PM] [39m[36m[Sonos][39m Bedroom Sonos: On: set to false (from true)

@@ -1,0 +1,17 @@
+{
+    "bridge": {
+        "name": "Homebridge C4ED",
+        "username": "0E:91:8A:71:C4:ED",
+        "port": 51860,
+        "pin": "406-01-884",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        }
+    ]
+}

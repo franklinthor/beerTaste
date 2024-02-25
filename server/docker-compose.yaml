@@ -1,0 +1,189 @@
+version: "2.1"
+
+networks:
+  mynetwork:
+
+services:
+  expressvpn:
+    image: misioslav/expressvpn:latest
+    container_name: expressvpn
+    restart: unless-stopped
+    ports: # ports from which container that uses expressvpn connection will be available in local      network
+      - 8080:8080 # example
+    environment:
+      - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8  # Comma seperated list of dns servers you wish to use and whitelist via iptables
+      - CODE=ED73CGCSDH7WXKZFJU3NGXH
+      - SERVER=smart # By default container will connect to smart location, list of available locations you can find below
+#     - BEAERER=ipInfoAccessToken # optional can be taken from ipinfo.io
+#     - HEALTHCHECK=healthchecks.ioId # optional can be taken from healthchecks.io
+      - NETWORK=on #optional and set to on by default
+      - PROTOCOL=lightway_tcp \ #optional set default to lightway_udp see protocol and cipher section for more information
+      - CIPHER=chacha20 \ #optional set default to chacha20 see protocol and cipher section for more information
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+    privileged: true
+
+############
+  sabnzbd:
+    image: lscr.io/linuxserver/sabnzbd:latest
+    container_name: sabnzbd
+    network_mode: service:expressvpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/sabnzbd:/config
+      - /media/storageDrive/storage/usenet:/storage/usenet:rw
+    restart: unless-stopped
+    depends_on:
+      - expressvpn
+############
+  radarr: ## Movies
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/radarr:/config
+      - /media/storageDrive/storage:/storage
+      - /media/storageDrive_6tb/storage_6tb:/storage_6tb
+      - /media/storageDrive_3tb/storage_3tb:/storage_3tb
+    ports:
+      - 7878:7878
+    restart: unless-stopped
+    networks:
+      - mynetwork
+    depends_on:
+      - prowlarr
+  sonarr: ## TV
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/sonarr:/config
+      - /media/storageDrive/storage:/storage
+      - /media/storageDrive_6tb/storage_6tb:/storage_6tb
+      - /media/storageDrive_3tb/storage_3tb:/storage_3tb
+    ports:
+      - 8989:8989
+    restart: unless-stopped
+    networks:
+      - mynetwork
+    depends_on:
+      - prowlarr
+############
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/prowlarr:/config
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+    networks:
+      - mynetwork
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+      - PLEX_CLAIM= #optional
+    volumes:
+      - /docker/appdata/config/plex:/config
+      - /media/storageDrive/storage/media/:/media
+      - /media/storageDrive_6tb/storage_6tb/media:/storage_6tb
+      - /media/storageDrive_3tb/storage_3tb:/media/storage_3tb
+    restart: unless-stopped
+    #########
+  overseerr:
+    image: lscr.io/linuxserver/overseerr:latest
+    container_name: overseerr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/overseerr:/config
+    ports:
+      - 5055:5055
+    restart: unless-stopped
+    depends_on:
+      - radarr
+      - sonarr
+  ############
+  bazarr: #subtitles
+    image: lscr.io/linuxserver/bazarr:latest
+    container_name: bazarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/bazarr:/config
+      - /media/storageDrive/storage:/storage
+    ports:
+      - 6767:6767
+    restart: unless-stopped
+
+  #app:
+  #  image: 'jc21/nginx-proxy-manager:latest'
+  #  container_name: nginx
+  #  restart: unless-stopped
+  #  ports:
+  #    - '80:80'
+  #    - '81:81'
+  #    - '443:443'
+  #  environment:
+  #    DB_MYSQL_HOST: db
+  #    DB_MYSQL_PORT: 3306
+  #    DB_MYSQL_USER: ${MYSQL_USER} # Change mysql user
+  #    DB_MYSQL_PASSWORD: ${MYSQL_PASSWORD} # Change mysql password
+  #    DB_MYSQL_NAME: ${MYSQL_DATABASE}
+  #  volumes:
+  #    - /docker/appdata/data:/data
+  #    - /docker/appdata/letsencrypt:/etc/letsencrypt
+  #  depends_on:
+  #    - db
+
+  #db:
+  #  image: lscr.io/linuxserver/mariadb:latest
+  #  container_name: mariadb
+  #  restart: unless-stopped
+  #  environment:
+  #   PUID: 1000
+  #   PGID: 1000
+  #   TZ: Europe/London
+  #   MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} # Change mysql user
+  #   MYSQL_DATABASE: ${MYSQL_DATABASE}
+  #   MYSQL_USER: ${MYSQL_USER} # Change mysql user
+  #   MYSQL_PASSWORD: ${MYSQL_PASSWORD} # Change mysql user
+  #  volumes:
+  #    - /docker/appdata/data/mysql:/var/lib/mysql
+  tunnel:
+    container_name: cloudflared-tunnel
+    image: cloudflare/cloudflared
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=eyJhIjoiNGEyMDEzNzY4ZjVhYjg3OTQyOWM5ZjQ3MTg1NTU1Y2UiLCJ0IjoiNDgxZjc5NzMtNmViMC00MGQ0LWExZDUtNjMyZjU1YzBkYmUyIiwicyI6IlkySXpZV1l6Tm1ZdE5ERmpaaTAwTUdZd0xUZ3lNVFV0TlRBME1qRTNZVEJpTjJJeSJ9

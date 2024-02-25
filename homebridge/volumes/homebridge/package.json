@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "homebridge": "1.7.0",
+    "homebridge-zp": "1.4.43"
+  }
+}
