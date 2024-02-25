@@ -145,41 +145,24 @@ services:
     ports:
       - 6767:6767
     restart: unless-stopped
-
-  #app:
-  #  image: 'jc21/nginx-proxy-manager:latest'
-  #  container_name: nginx
-  #  restart: unless-stopped
-  #  ports:
-  #    - '80:80'
-  #    - '81:81'
-  #    - '443:443'
-  #  environment:
-  #    DB_MYSQL_HOST: db
-  #    DB_MYSQL_PORT: 3306
-  #    DB_MYSQL_USER: ${MYSQL_USER} # Change mysql user
-  #    DB_MYSQL_PASSWORD: ${MYSQL_PASSWORD} # Change mysql password
-  #    DB_MYSQL_NAME: ${MYSQL_DATABASE}
-  #  volumes:
-  #    - /docker/appdata/data:/data
-  #    - /docker/appdata/letsencrypt:/etc/letsencrypt
-  #  depends_on:
-  #    - db
-
-  #db:
-  #  image: lscr.io/linuxserver/mariadb:latest
-  #  container_name: mariadb
-  #  restart: unless-stopped
-  #  environment:
-  #   PUID: 1000
-  #   PGID: 1000
-  #   TZ: Europe/London
-  #   MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} # Change mysql user
-  #   MYSQL_DATABASE: ${MYSQL_DATABASE}
-  #   MYSQL_USER: ${MYSQL_USER} # Change mysql user
-  #   MYSQL_PASSWORD: ${MYSQL_PASSWORD} # Change mysql user
-  #  volumes:
-  #    - /docker/appdata/data/mysql:/var/lib/mysql
+  torrent:
+      # Remember to set ethernet adapter in web ui to wg0
+      image: lscr.io/linuxserver/qbittorrent:latest
+      container_name: torrent
+      network_mode: service:expressvpn
+      environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=Atlantic/Reykjavik
+        - WEBUI_PORT=8081
+      volumes:
+        - /docker/appdata/config/qbittorrent:/config
+        - /media/storageDrive/storage:/storage
+        - /media/storageDrive_6tb/storage_6tb:/storage_6tb
+        - /media/storageDrive_3tb/storage_3tb:/storage_3tb
+      restart: unless-stopped
+      depends_on:
+        - expressvpn
   tunnel:
     container_name: cloudflared-tunnel
     image: cloudflare/cloudflared
