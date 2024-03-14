@@ -146,7 +146,7 @@ services:
       - TZ=Europe/London
     volumes:
       - /docker/appdata/config/bazarr:/config
-      - /media/storageDrive/storage:/storage
+      - /media/storageDrive/data:/data
     ports:
       - 6767:6767
     restart: unless-stopped
