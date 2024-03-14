@@ -46,8 +46,8 @@ services:
     volumes:
       - /docker/appdata/config/sabnzbd:/config
       - /media/storageDrive/storage/usenet:/storage/usenet:rw
-      - /media/storageDrive_6tb/storage_6tb/usenet:/storage_6tb
-      - /media/storageDrive_3tb/storage_3tb/usenet:/storage_3tb
+      - /media/storageDrive_6tb/storage_6tb/usenet:/storage_6tb/usenet:rw
+      - /media/storageDrive_3tb/storage_3tb/usenet:/storage_3tb/usenet:rw
     restart: unless-stopped
     depends_on:
       - expressvpn
