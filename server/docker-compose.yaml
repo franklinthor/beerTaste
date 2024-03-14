@@ -147,8 +147,8 @@ services:
     volumes:
       - /docker/appdata/config/bazarr:/config
       - /media/storageDrive/data:/data
-      - /media/storageDrive_6tb/data/:/data
-      - /media/storageDrive_3tb/data:/data
+      - /media/storageDrive_6tb/data/:/data_6tb
+      - /media/storageDrive_3tb/data:/data_3tb
     ports:
       - 6767:6767
     restart: unless-stopped
