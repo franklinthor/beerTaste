@@ -177,3 +177,11 @@ services:
     command: tunnel run
     environment:
       - TUNNEL_TOKEN=eyJhIjoiNGEyMDEzNzY4ZjVhYjg3OTQyOWM5ZjQ3MTg1NTU1Y2UiLCJ0IjoiNDgxZjc5NzMtNmViMC00MGQ0LWExZDUtNjMyZjU1YzBkYmUyIiwicyI6IlkySXpZV1l6Tm1ZdE5ERmpaaTAwTUdZd0xUZ3lNVFV0TlRBME1qRTNZVEJpTjJJeSJ9
+  plex-meta-manager:
+    image: meisnate12/plex-meta-manager
+    container_name: plex-meta-manager
+    environment:
+      - TZ=Atlantic/Reykjavik
+    volumes:
+      - /path/to/config:/config
+    restart: unless-stopped
