@@ -47,7 +47,7 @@ services:
       - /docker/appdata/config/sabnzbd:/config
       - /media/storageDrive/data/usenet:/data/usenet:rw
       - /media/storageDrive_3tb/data/usenet:/data_3tb/usenet:rw
-      - /media/storageDrive_6tb/data/usenet:/data_6t/usenet:rw
+      - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
     restart: unless-stopped
     depends_on:
       - expressvpn
