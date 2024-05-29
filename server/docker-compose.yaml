@@ -46,7 +46,6 @@ services:
     volumes:
       - /docker/appdata/config/sabnzbd:/config
       - /media/storageDrive/data/usenet:/data/usenet:rw
-      - /media/storageDrive_3tb/data/usenet:/data_3tb/usenet:rw
       - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
     restart: unless-stopped
     depends_on:
@@ -64,7 +63,6 @@ services:
       - /docker/appdata/config/radarr:/config
       - /media/storageDrive/data:/data
       - /media/storageDrive_6tb/data:/data_6tb
-      - /media/storageDrive_3tb/data:/data_3tb
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -84,7 +82,7 @@ services:
       - /docker/appdata/config/sonarr:/config
       - /media/storageDrive/data:/data
       - /media/storageDrive_6tb/data:/data_6tb
-      - /media/storageDrive_3tb/data:/data_3tb
+
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -120,7 +118,6 @@ services:
       - /docker/appdata/config/plex:/config
       - /media/storageDrive/data/media/:/media
       - /media/storageDrive_6tb/data/media:/media_6tb
-      - /media/storageDrive_3tb/data:/media/media_3tb
     restart: unless-stopped
     #########
   overseerr:
@@ -150,7 +147,6 @@ services:
       - /docker/appdata/config/bazarr:/config
       - /media/storageDrive/data:/data
       - /media/storageDrive_6tb/data/:/data_6tb
-      - /media/storageDrive_3tb/data:/data_3tb
     ports:
       - 6767:6767
     restart: unless-stopped
