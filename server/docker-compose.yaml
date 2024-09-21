@@ -23,7 +23,8 @@ services:
       - NETWORK=on #optional and set to on by default
       - PROTOCOL=lightway_tcp \ #optional set default to lightway_udp see protocol and cipher section for more information
       - CIPHER=chacha20 \ #optional set default to chacha20 see protocol and cipher section for more information
-    network: mynetwork
+    networks: 
+      - mynetwork
     cap_add:
       - NET_ADMIN
     devices:
