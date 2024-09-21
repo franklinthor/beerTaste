@@ -36,7 +36,7 @@ services:
 
 ############
   sabnzbd:
-    image: lscr.io/linuxserver/sabnzbd:4.3.2
+    image: linuxserver/sabnzbd:4.3.2
     container_name: sabnzbd
     network_mode: service:expressvpn
     environment:
@@ -54,7 +54,7 @@ services:
       - expressvpn
 ############
   radarr: ## Movies
-    image: lscr.io/linuxserver/radarr:4.7.5
+    image: linuxserver/radarr:4.7.5
     container_name: radarr
     environment:
       - PUID=1000
@@ -74,7 +74,7 @@ services:
     depends_on:
       - prowlarr
   sonarr: ## TV
-    image: lscr.io/linuxserver/sonarr:3.10
+    image: linuxserver/sonarr:3.0.10
     container_name: sonarr
     environment:
       - PUID=1000
