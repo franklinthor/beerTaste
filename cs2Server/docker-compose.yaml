@@ -25,7 +25,7 @@ services:
     container_name: cs2server
     restart: unless-stopped
     volumes:
-      - /docker/appdata/cs2:/data
+      - /cs2server:/data
     network_mode: service:cs2wg
 
 networks:
