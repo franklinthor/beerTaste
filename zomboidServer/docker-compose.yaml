@@ -1,8 +1,8 @@
 version: "3.8"
 services:
-  cs2wg:
+  pzwg:
     image: linuxserver/wireguard
-    container_name: cs2wg
+    container_name: pzwg
     cap_add:
       - NET_ADMIN
     environment:
@@ -10,24 +10,24 @@ services:
       - PGID=1000
       - TZ=Atlantic/Reykjavik
     volumes:
-      - /docker/appdata/config/wg-cs2:/config
+      - /docker/appdata/config/wg-zomboid:/config
       - /lib/modules:/lib/modules
     ports:
       #- 51820:51820/udp Does a client need this port forwarded?
-      - 27015:27015/udp
-      - 27016:27016/udp
+      - 16261:16261/udp
+      - 16262:16262/udp
     sysctls:
       - net.ipv4.conf.all.src_valid_mark=1
     networks:
-      - cs2wgnet
-  cs2:
-    image: gameservermanagers/gameserver:cs2
-    container_name: cs2server
+      - pzwgnet
+  zomboid:
+    image: gameservermanagers/gameserver:pz
+    container_name: pz
     restart: unless-stopped
     volumes:
-      - /cs2server:/cs2server
-    network_mode: service:cs2wg
+      - /zomboidserver:/data
+    network_mode: service:pzwg
 
 networks:
-  cs2wgnet:
+  pzwgnet:
     driver: bridge
