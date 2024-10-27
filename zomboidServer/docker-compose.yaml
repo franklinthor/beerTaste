@@ -10,7 +10,7 @@ services:
       - PGID=1000
       - TZ=Atlantic/Reykjavik
     volumes:
-      - /docker/appdata/config/wg-zomboid:/config
+      - /docker/appdata/config/wg-pz:/config
       - /lib/modules:/lib/modules
     ports:
       #- 51820:51820/udp Does a client need this port forwarded?
@@ -20,12 +20,12 @@ services:
       - net.ipv4.conf.all.src_valid_mark=1
     networks:
       - pzwgnet
-  zomboid:
+  pz:
     image: gameservermanagers/gameserver:pz
     container_name: pz
     restart: unless-stopped
     volumes:
-      - /zomboidserver:/data
+      - /pz:/data
     network_mode: service:pzwg
 
 networks:
