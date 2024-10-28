@@ -18,17 +18,14 @@ services:
       - 6881:6881/udp # qbitTorrent
 
     environment:
-      - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8  # Comma seperated list of dns servers you wish to use and whitelist via iptables
+      - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8 # Comma seperated list of dns servers you wish to use and whitelist via iptables
       - CODE=ED73CGCSDH7WXKZFJU3NGXH
       - SERVER=smart # By default container will connect to smart location, list of available locations you can find below
-#     - BEAERER=ipInfoAccessToken # optional can be taken from ipinfo.io
-#     - HEALTHCHECK=healthchecks.ioId # optional can be taken from healthchecks.io
+      #     - BEAERER=ipInfoAccessToken # optional can be taken from ipinfo.io
+      #     - HEALTHCHECK=healthchecks.ioId # optional can be taken from healthchecks.io
       - NETWORK=on #optional and set to on by default
       - PROTOCOL=lightway_tcp \ #optional set default to lightway_udp see protocol and cipher section for more information
       - CIPHER=chacha20 \ #optional set default to chacha20 see protocol and cipher section for more information
-    networks:
-      mynetwork:
-        ipv4_address: 172.31.0.10
     cap_add:
       - NET_ADMIN
     devices:
@@ -38,24 +35,25 @@ services:
     command: /bin/bash
     privileged: true
 
-############
+  ############
   sabnzbd:
-  image: lscr.io/linuxserver/sabnzbd:latest
-  container_name: sabnzbd
-  environment:
-    - PUID=1000
-    - PGID=1000
-    - UMASK=002
-    - TZ=Europe/London
-  volumes:
-    - /docker/appdata/config/sabnzbd:/config
-    - /media/storageDrive/data/usenet:/data/usenet:rw
-    - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
-    - /media/storageDrive_8tb/data/usenet:/data_8tb/usenet:rw
-  restart: unless-stopped
-  command: /bin/bash -c "/config/route_via_vpn.sh && /init"  networks:
-    - mynetwork
-############
+    image: lscr.io/linuxserver/sabnzbd:latest
+    container_name: sabnzbd
+    network_mode: service:expressvpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/sabnzbd:/config
+      - /media/storageDrive/data/usenet:/data/usenet:rw
+      - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
+      - /media/storageDrive_8tb/data/usenet:/data_8tb/usenet:rw
+    restart: unless-stopped
+    depends_on:
+      - expressvpn
+  ############
   radarr: ## Movies
     image: lscr.io/linuxserver/radarr:latest
     container_name: radarr
@@ -89,7 +87,6 @@ services:
       - /media/storageDrive/data:/data
       - /media/storageDrive_6tb/data:/data_6tb
       - /media/storageDrive_8tb/data:/data_8tb
-
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -97,7 +94,7 @@ services:
       - mynetwork
     depends_on:
       - prowlarr
-############
+  ############
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
     container_name: prowlarr
@@ -160,21 +157,21 @@ services:
       - 6767:6767
     restart: unless-stopped
   torrent:
-      # Remember to set ethernet adapter in web ui to wg0
-      image: lscr.io/linuxserver/qbittorrent:latest
-      container_name: torrent
-      network_mode: service:expressvpn
-      environment:
-        - PUID=1000
-        - PGID=1000
-        - TZ=Atlantic/Reykjavik
-        - WEBUI_PORT=8081
-      volumes:
-        - /docker/appdata/config/qbittorrent:/config
-        - /media/storageDrive/data:/data
-      restart: unless-stopped
-      depends_on:
-        - expressvpn
+    # Remember to set ethernet adapter in web ui to wg0
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: torrent
+    network_mode: service:expressvpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Atlantic/Reykjavik
+      - WEBUI_PORT=8081
+    volumes:
+      - /docker/appdata/config/qbittorrent:/config
+      - /media/storageDrive/data:/data
+    restart: unless-stopped
+    depends_on:
+      - expressvpn
   tunnel:
     container_name: cloudflared-tunnel
     image: cloudflare/cloudflared
