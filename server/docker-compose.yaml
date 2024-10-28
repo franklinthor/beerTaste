@@ -2,6 +2,9 @@ version: "2.1"
 
 networks:
   mynetwork:
+    ipam:
+      config:
+        - subnet: 172.31.0.0/24
 
 services:
   expressvpn:
@@ -23,8 +26,9 @@ services:
       - NETWORK=on #optional and set to on by default
       - PROTOCOL=lightway_tcp \ #optional set default to lightway_udp see protocol and cipher section for more information
       - CIPHER=chacha20 \ #optional set default to chacha20 see protocol and cipher section for more information
-    networks: 
-      - mynetwork
+    networks:
+      mynetwork:
+        ipv4_address: 172.31.0.10
     cap_add:
       - NET_ADMIN
     devices:
@@ -36,22 +40,21 @@ services:
 
 ############
   sabnzbd:
-    image: lscr.io/linuxserver/sabnzbd:latest
-    container_name: sabnzbd
-    network_mode: service:expressvpn
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Europe/London
-    volumes:
-      - /docker/appdata/config/sabnzbd:/config
-      - /media/storageDrive/data/usenet:/data/usenet:rw
-      - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
-      - /media/storageDrive_8tb/data/usenet:/data_8tb/usenet:rw
-    restart: unless-stopped
-    depends_on:
-      - expressvpn
+  image: lscr.io/linuxserver/sabnzbd:latest
+  container_name: sabnzbd
+  environment:
+    - PUID=1000
+    - PGID=1000
+    - UMASK=002
+    - TZ=Europe/London
+  volumes:
+    - /docker/appdata/config/sabnzbd:/config
+    - /media/storageDrive/data/usenet:/data/usenet:rw
+    - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
+    - /media/storageDrive_8tb/data/usenet:/data_8tb/usenet:rw
+  restart: unless-stopped
+  command: /bin/bash -c "/config/route_via_vpn.sh && /init"  networks:
+    - mynetwork
 ############
   radarr: ## Movies
     image: lscr.io/linuxserver/radarr:latest
