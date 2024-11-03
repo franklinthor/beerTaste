@@ -50,6 +50,7 @@ services:
       - /media/storageDrive/data/usenet:/data/usenet:rw
       - /media/storageDrive_6tb/data/usenet:/data_6tb/usenet:rw
       - /media/storageDrive_8tb/data/usenet:/data_8tb/usenet:rw
+      - /media/storageDrive_8tb/data/usenet/complete/audiobooks:/audiobooks:rw
     restart: unless-stopped
     depends_on:
       - expressvpn
