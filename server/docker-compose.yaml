@@ -207,7 +207,7 @@ services:
       - TZ=Europe/London
     volumes:
       - /docker/appdata/config/readarr:/config
-      - /media/storageDrive_8tb/audiobooks:/audiobooks
+      - /media/storageDrive_8tb/data:/data_8tb
     ports:
       - 8787:8787
     restart: unless-stopped
