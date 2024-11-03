@@ -197,3 +197,16 @@ services:
       - /docker/appdata/metadata:/metadata
       - /docker/appdata/config/audiobookshelf:/config
     restart: unless-stopped
+  readarr:
+    image: lscr.io/linuxserver/readarr:develop
+    container_name: readarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /docker/appdata/config/readarr:/config
+      - /media/storageDrive_8tb/audiobooks:/books
+    ports:
+      - 8787:8787
+    restart: unless-stopped
