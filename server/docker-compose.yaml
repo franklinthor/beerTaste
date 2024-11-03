@@ -187,3 +187,13 @@ services:
     volumes:
       - /path/to/config:/config
     restart: unless-stopped
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    ports:
+      - 13378:80
+    volumes:
+      - /media/storageDrive_8tb/audiobooks:/audiobooks
+      - /media/storageDrive_8tb/podcasts:/podcasts
+      - /docker/appdata/metadata:/metadata
+      - /docker/appdata/config/audiobookshelf:/config
+    restart: unless-stopped
