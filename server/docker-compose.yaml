@@ -193,8 +193,7 @@ services:
     ports:
       - 13378:80
     volumes:
-      - /media/storageDrive_8tb/audiobooks:/audiobooks
-      - /media/storageDrive_8tb/podcasts:/podcasts
+      - /media/storageDrive_8tb/data:/data_8tb
       - /docker/appdata/metadata:/metadata
       - /docker/appdata/config/audiobookshelf:/config
     restart: unless-stopped
