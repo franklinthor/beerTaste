@@ -30,9 +30,6 @@ services:
       - NET_ADMIN
     devices:
       - /dev/net/tun
-    networks:
-      mynetwork:
-        ipv4_address: 172.31.0.10
     stdin_open: true
     tty: true
     command: /bin/bash
