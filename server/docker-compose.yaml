@@ -204,6 +204,8 @@ services:
     volumes:
       - /docker/appdata/config/readarr:/config
       - /media/storageDrive_8tb/data:/data_8tb
+      - /media/storageDrive_8tb/data/usenet/complete/audiobooks:/audiobooks
+
     ports:
       - 8787:8787
     restart: unless-stopped
