@@ -15,7 +15,7 @@ services:
       - 6881:6881/udp # qbitTorrent
 
     environment:
-      - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8 # Comma seperated list of dns servers you wish to use and whitelist via iptables
+      - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8,192.168.1.211 # Comma seperated list of dns servers you wish to use and whitelist via iptables
       - CODE=ED73CGCSDH7WXKZFJU3NGXH
       - SERVER=smart # By default container will connect to smart location, list of available locations you can find below
       #     - BEAERER=ipInfoAccessToken # optional can be taken from ipinfo.io
