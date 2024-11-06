@@ -13,7 +13,7 @@ services:
       - /docker/appdata/config/wg-pz:/config
       - /lib/modules:/lib/modules
     ports:
-      - 51820:51820/udp # Does a client need this port forwarded?
+      #- 51820:51820/udp Does a client need this port forwarded?
       - 27015:27015/udp
       - 27016:27016/udp
     sysctls:
@@ -26,9 +26,7 @@ services:
     restart: unless-stopped
     volumes:
       - /pz:/data
-    network_mode: bridge
-    networks:
-    - pzwgnet
+    network_mode: service:pzwg
 
 networks:
   pzwgnet:
