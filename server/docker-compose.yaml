@@ -194,20 +194,7 @@ services:
       - /docker/appdata/metadata:/metadata
       - /docker/appdata/config/audiobookshelf:/config
     restart: unless-stopped
-  
-  #########################################
-  # Local BookInfo proxy for Readarr
-  readarr-metadata-scraper:
-    build: scraper
-    container_name: readarr-metadata-scraper
-    depends_on:
-      - readarr
-    networks:
-      default:
-        aliases:
-          - api.bookinfo.club
 
-  
   #########################################
   readarr:
     image: lscr.io/linuxserver/readarr:develop
@@ -220,7 +207,6 @@ services:
       - /docker/appdata/config/readarr:/config
       - /media/storageDrive_8tb/data:/data_8tb
       - /media/storageDrive_8tb/data/usenet/complete/audiobooks:/audiobooks
-      - ./scraper/certs/bookinfo-club.crt:/etc/ssl/certs/bookinfo-club.crt
 
     ports:
       - 8787:8787
