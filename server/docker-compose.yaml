@@ -198,7 +198,7 @@ services:
   #########################################
   # Local BookInfo proxy for Readarr
   readarr-metadata-scraper:
-    build: ./scraper
+    build: ./scraper/scraper
     container_name: readarr-metadata-scraper
     restart: unless-stopped
     depends_on:
