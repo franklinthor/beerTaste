@@ -199,7 +199,7 @@ services:
   # Local BookInfo proxy for Readarr
   readarr-metadata-scraper:
     build:
-      context: ./scraper
+      context: ./scraper/scraper
     image: readarr-metadata-scraper:latest
     container_name: readarr-metadata-scraper
     restart: unless-stopped
