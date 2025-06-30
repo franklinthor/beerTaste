@@ -198,12 +198,16 @@ services:
   #########################################
   # Local BookInfo proxy for Readarr
   readarr-metadata-scraper:
-    image: earth ybeet/readarr-metadata-scraper:latest
+    build:
+      context: ./scraper
+    image: readarr-metadata-scraper:latest
     container_name: readarr-metadata-scraper
     restart: unless-stopped
+    depends_on:
+      - readarr
     networks:
-      mynetwork:
-        aliases:
+       mynetwork:
+         aliases:
           - api.bookinfo.club
     volumes:
       - /opt/server/scraper/certs/bookinfo-club.crt:/etc/ssl/certs/bookinfo-club.crt:ro
