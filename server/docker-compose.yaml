@@ -198,19 +198,22 @@ services:
   #########################################
   # Local BookInfo proxy for Readarr
   readarr-metadata-scraper:
-    build:
-      context: ./scraper/scraper
-    image: readarr-metadata-scraper:latest
+    build: ./scraper
     container_name: readarr-metadata-scraper
     restart: unless-stopped
     depends_on:
       - readarr
     networks:
-       mynetwork:
-         aliases:
+      mynetwork:
+        aliases:
           - api.bookinfo.club
+    ports:
+      - "443:443"
+    environment:
+      - PORT=443
     volumes:
       - /opt/server/scraper/certs/bookinfo-club.crt:/etc/ssl/certs/bookinfo-club.crt:ro
+      - /opt/server/scraper/certs/bookinfo-club.key:/etc/ssl/certs/bookinfo-club.key:ro
 
   
   #########################################
