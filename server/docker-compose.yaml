@@ -13,7 +13,9 @@ services:
       - 8081:8081 # qbitTorrent
       - 6881:6881 # qbitTorrent
       - 6881:6881/udp # qbitTorrent
-
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     environment:
       - WHITELIST_DNS=192.168.1.1,1.1.1.1,8.8.8.8,192.168.1.211 # Comma seperated list of dns servers you wish to use and whitelist via iptables
       - CODE=ED73CGCSDH7WXKZFJU3NGXH
