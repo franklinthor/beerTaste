@@ -52,12 +52,9 @@ public class TastingsController(
 
         foreach (var beerDto in request.Beers)
         {
-            tasting.BeerList.Add(new Beer
+            tasting.BeerList.Add(new()
             {
-                // Preserve client IDs if provided to keep things in sync
-                Id = string.IsNullOrWhiteSpace(beerDto.Id)
-                    ? Guid.NewGuid().ToString()
-                    : beerDto.Id,
+                Id = Guid.NewGuid().ToString(),
                 Name = beerDto.Name,
                 Brewery = beerDto.Brewery,
                 Style = beerDto.Style,
@@ -67,6 +64,7 @@ public class TastingsController(
                 Tasting = tasting
             });
         }
+
 
         db.Tastings.Add(tasting);
         await db.SaveChangesAsync(ct);

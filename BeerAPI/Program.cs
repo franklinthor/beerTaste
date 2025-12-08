@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 
 // EF Core – pick your provider
 builder.Services.AddDbContext<BeerTastingDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 // or UseSqlServer / UseNpgsql etc.
 
 var app = builder.Build();
@@ -28,7 +28,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors(policy => policy
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
+
 app.UseAuthorization();
 app.MapControllers();
 
