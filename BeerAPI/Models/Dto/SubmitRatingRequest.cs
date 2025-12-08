@@ -1,6 +1,8 @@
 ﻿namespace BeerAPI.Models.Dto;
 
-public class SubmitRatingRequest
-{
-    
-}
+public record SubmitRatingRequest(
+    string BeerId,
+    string ParticipantId,
+    int Score,
+    string? Comment
+);

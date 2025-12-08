@@ -1,0 +1,7 @@
+﻿services:
+  beerapi:
+    image: beerapi
+    build:
+      context: .
+      dockerfile: BeerAPI/Dockerfile
+

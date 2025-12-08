@@ -1,4 +1,4 @@
-﻿namespace BeerAPI.Models;
+﻿namespace BeerAPI.Models.Entities;
 
 public class Beer
 {

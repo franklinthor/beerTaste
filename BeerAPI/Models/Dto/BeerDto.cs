@@ -1,6 +1,10 @@
 ﻿namespace BeerAPI.Models.Dto;
 
-public class BeerDto
-{
-    
-}
+public record BeerDto(
+    string Id,
+    string Name,
+    string Brewery,
+    string Style,
+    double Abv,
+    int VolumeMl
+);

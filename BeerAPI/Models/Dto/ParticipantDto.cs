@@ -1,6 +1,7 @@
 ﻿namespace BeerAPI.Models.Dto;
 
-public class Participantdto
-{
-    
-}
+
+public record ParticipantDto(
+    string Id,
+    string Name
+);

@@ -1,6 +1,3 @@
 ﻿namespace BeerAPI.Models.Dto;
 
-public class SetCurrentBeerRequest
-{
-    
-}
+public record SetCurrentBeerRequest(int BeerIndex);

@@ -1,6 +1,3 @@
 ﻿namespace BeerAPI.Models.Dto;
 
-public class JoinTastingRequest
-{
-    
-}
+public record JoinTastingRequest(string Name);
