@@ -11,6 +11,8 @@ public class BeerTastingDbContext(DbContextOptions<BeerTastingDbContext> options
     public DbSet<Participant> Participants => Set<Participant>();
     public DbSet<Rating> Ratings => Set<Rating>();
 
+    public DbSet<DesignRanking> DesignRankings => Set<DesignRanking>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -33,6 +35,16 @@ public class BeerTastingDbContext(DbContextOptions<BeerTastingDbContext> options
             .WithOne(r => r.Tasting!)
             .HasForeignKey(r => r.TastingId)
             .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<Tasting>()
+            .HasMany(t => t.DesignRankings)
+            .WithOne(dr => dr.Tasting!)
+            .HasForeignKey(dr => dr.TastingId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<DesignRanking>()
+            .HasIndex(dr => new { dr.TastingId, dr.ParticipantId })
+            .IsUnique();
 
         // Rating uniqueness: one rating per participant/beer/tasting
         modelBuilder.Entity<Rating>()
