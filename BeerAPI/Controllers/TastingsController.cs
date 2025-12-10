@@ -87,6 +87,7 @@ public class TastingsController(
             .Include(t => t.BeerList)
             .Include(t => t.Participants)
             .Include(t => t.Ratings)
+            .Include(t => t.DesignRankings)
             .FirstOrDefaultAsync(t => t.Code == normalizedCode, ct);
 
         if (tasting is null)

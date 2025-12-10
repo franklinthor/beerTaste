@@ -1,4 +1,6 @@
-﻿services:
+﻿version: "3.9"
+
+services:
   db:
     image: postgres:16
     container_name: beertasting-db
@@ -10,22 +12,36 @@
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5432:5432"   # expose if you want to connect from host (optional)
 
   api:
     build:
       context: .
-      dockerfile: BeerAPI/Dockerfile   # <--- adjust if your Dockerfile is elsewhere
+      dockerfile: BeerAPI/Dockerfile
     container_name: beertasting-api
     depends_on:
       - db
     environment:
-      ASPNETCORE_ENVIRONMENT: "Development"
-      # This overrides ConnectionStrings:DefaultConnection in your appsettings
+      ASPNETCORE_ENVIRONMENT: "Production"
+      # Postgres connection string for EF Core UseNpgsql
       ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=beertasting;Username=beertasting;Password=supersecret"
     ports:
-      - "8080:8080"
+      - "8080:8080"   # host:container
     restart: unless-stopped
+
+  web:
+    build:
+      context: ./beer-hav
+      dockerfile: Dockerfile
+      args:
+        # Frontend -> backend URL *inside* the Docker network
+        VITE_API_BASE_URL: "http://api:8080/api"
+    container_name: beertasting-web
+    depends_on:
+      - api
+    restart: unless-stopped
+    ports:
+      - "8081:80"     # host:container (Cloudflare tunnel will point here)
 
 volumes:
   db-data:
