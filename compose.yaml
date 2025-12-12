@@ -26,22 +26,22 @@ services:
       # Postgres connection string for EF Core UseNpgsql
       ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=beertasting;Username=beertasting;Password=supersecret"
     ports:
-      - "8080:8080"   # host:container
+      - "8084:8080"   # host:container
     restart: unless-stopped
 
   web:
     build:
-      context: ./beer-hav
+      context: ../brew-haven
       dockerfile: Dockerfile
       args:
         # Frontend -> backend URL *inside* the Docker network
-        VITE_API_BASE_URL: "http://api:8080/api"
+        VITE_API_BASE_URL: "http://api:8084/api"
     container_name: beertasting-web
     depends_on:
       - api
     restart: unless-stopped
     ports:
-      - "8081:80"     # host:container (Cloudflare tunnel will point here)
+      - "8085:80"     # host:container (Cloudflare tunnel will point here)
 
 volumes:
   db-data:
