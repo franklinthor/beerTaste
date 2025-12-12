@@ -33,9 +33,6 @@ services:
     build:
       context: ../brew-haven
       dockerfile: Dockerfile
-      args:
-        # Frontend -> backend URL *inside* the Docker network
-        VITE_API_BASE_URL: "http://api:8084/api"
     container_name: beertasting-web
     depends_on:
       - api
